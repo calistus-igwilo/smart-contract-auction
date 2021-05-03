@@ -9,11 +9,11 @@ The bidders examine the items to bid, place the one or more tickets in the bowl 
 
 ### Assumptions:
 <ol>
-<ul>Fixed number of bidders, initialized to 4. All 4 need to self-register. Funds transfer from bidder is automatically done and is not in the scope of this application.</ul>
-<ul>Fixed number of items to be auctioned off, initialized to 3.</ul>
-<ul>Items auctioned are indexed from 0..N-1 where N is the number of items for auction. N is 2.</ul>
-<ul>Each bidder buys just 1 sheet of tickets or tokens; each sheet has only 5 tokens.</ul>
-<ul>Assume simple number for the serial numbers for the sheet of tickets: 0,1,2,3</ul>
+<li>Fixed number of bidders, initialized to 4. All 4 need to self-register. Funds transfer from bidder is automatically done and is not in the scope of this application.</li>
+<li>Fixed number of items to be auctioned off, initialized to 3.</li>
+<li>Items auctioned are indexed from 0..N-1 where N is the number of items for auction. N is 2.</li>
+<li>Each bidder buys just 1 sheet of tickets or tokens; each sheet has only 5 tokens.</li>
+<li>Assume simple number for the serial numbers for the sheet of tickets: 0,1,2,3</li>
 </ol>
 
 ### Design
